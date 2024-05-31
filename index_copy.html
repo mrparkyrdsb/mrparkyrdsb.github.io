@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Computer Science | Dr. G.W. Williams</title>
+
+    <link href="./src/style.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg-dark text-white">
+    <div class="container">
+        <div class="row" id="title">
+            <!-- Title Row-->
+            <div class="col">
+                <h1>Computer Science @ <a href="http://www.yrdsb.ca/schools/drgwwilliams.ss/Pages/default.aspx" target="_blank">Dr. G.W. Williams</a></h1>
+                <p><strong>Office:</strong> Room 249</p>
+                <table class="table table-dark mt-5">
+                    <thead>
+                        <tr>
+                            <th scope="col">Teachers</th>
+                            <th scope="col">Courses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mr. J Park</td>
+                            <td>Gr. 10 Computer Studies (ICS2O/ICD2O)</td>
+                        </tr>
+                        <tr>
+                            <td>Mr. P Rastegar</td>
+                            <td>Gr. 11U Computer Science (ICS3U)</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Gr. 12U Computer Science (ICS4U)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row pt-5 pb-5">
+            <div class="col-md-4">
+                <div class="card border-secondary text-white bg-dark">
+                    <div class="card-body">
+                      <h4 class="card-title">Gr 12 - Computer Science</h4>
+                      <h6 class="card-subtitle mb-2 text-light">ICS4U</h6>
+                      <br>
+                      <p class="card-text">This course allows students to further develop their knowledge and skills in computer science by learning object oriented programming. Throughout the various units, students will work through the steps of managing a large software development project, from planning through to project review.</p>
+                      <p><strong>Programming Language:</strong> <span class="badge bg-success">Python</span></p>
+                      <p><strong>Prerequisite:</strong> ICS3U</p>
+                      <a href="./ics4u.html" class="card-link">Course Content</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-secondary text-white bg-dark">
+                    <div class="card-body">
+                      <h4 class="card-title">Gr 11 - Computer Science</h4>
+                      <h6 class="card-subtitle mb-2 text-light">ICS3U</h6>
+                      <br>
+                      <p class="card-text">This course introduces students to computer science. Students will design software independently and as part of a team, using industry-standard programming tools. The students will also learn about computer hardware and binary system to fully understand how a computer processes data.</p>
+                      <p><strong>Programming Language:</strong> <span class="badge bg-primary">Java</span></p>
+                      <p><strong>Prerequisite:</strong> None</p>
+                      <a href="./ics3u.html" class="card-link">Course Content</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-secondary text-white bg-dark">
+                    <div class="card-body">
+                      <h4 class="card-title">Gr 10 - Computer Studies</h4>
+                      <h6 class="card-subtitle mb-2 text-light">ICS2O/ICD2O</h6>
+                      <br>
+                      <p class="card-text">This course teaches coding concepts and skills to build hands-on projects and investigate artificial intelligence, cybersecurity, and other emerging digital technologies that connect to a wide range of fields and careers. Using critical thinking skills with a focus on digital citizenship, students will investigate the appropriate use and development of the digital technologies that they encounter every day, as well as the benefits and limitations of these technologies.</p>
+                      <p><strong>Programming Language:</strong> <span class="badge bg-primary">Java</span></p>
+                      <p><strong>Prerequisite:</strong> None</p>
+                      <a href="icd2o.html" class="card-link">Course Content</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row pt-5 pb-5">
+            <div class="col">
+                <p>&copy;<span id="current_year"></span> - Jasper Park</p>
+            </div>
+        </div><!-- Dated Footer-->
+    </div><!-- end of container -->
+    <script>
+        var date_obj = new Date();
+        var year = date_obj.getFullYear();
+        document.getElementById("current_year").innerText = year;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
